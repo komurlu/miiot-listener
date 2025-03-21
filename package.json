@@ -1,0 +1,35 @@
+{
+  "name": "miiot-listener",
+  "version": "0.1",
+  "description": "Listen to Xiaomi Mi Smart Home Gateway.",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "xm": "index.js",
+    "xiaomi-mqtt": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/komurlu/miiot-listener.git"
+  },
+  "keywords": [
+    "Xiaomi",
+    "Gateway",
+    "Bridge"
+  ],
+  "dependencies": {
+    "mqtt": ">=2.16.0",
+    "loglevel": ">=1.6.0",
+    "loglevel-plugin-prefix": ">=0.8.3",
+    "chalk": ">=2.3.0"
+  },
+  "author": "komurlu",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/komurlu/miiot-listener/issues"
+  },
+  "homepage": "https://github.com/komurlu/miiot-listener#readme"
+}
